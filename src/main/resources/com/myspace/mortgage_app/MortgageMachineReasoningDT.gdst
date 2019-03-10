@@ -75,6 +75,7 @@
             </constraints>
           </constraintList>
           <factType>Application</factType>
+          <boundName>app</boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -359,7 +360,7 @@
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
   <actionCols>
-    <insert-fact-column52>
+    <set-field-col52>
       <typedDefaultValue>
         <valueBoolean>false</valueBoolean>
         <valueString></valueString>
@@ -368,13 +369,12 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>100</width>
-      <header>Application inLimit</header>
-      <factType>Application</factType>
-      <boundName>app1</boundName>
+      <header>Application in Limit</header>
+      <boundName>app</boundName>
       <factField>inlimitMR</factField>
       <type>Boolean</type>
-      <isInsertLogical>false</isInsertLogical>
-    </insert-fact-column52>
+      <update>false</update>
+    </set-field-col52>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
