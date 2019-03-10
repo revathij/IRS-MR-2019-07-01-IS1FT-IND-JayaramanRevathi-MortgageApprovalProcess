@@ -35,7 +35,7 @@
           <constraintList>
             <constraints>
               <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-                <value>$hasjob</value>
+                <value>$hasJob</value>
                 <operator>==</operator>
                 <constraintValueType>7</constraintValueType>
                 <expression>
@@ -90,7 +90,7 @@
           <factField>hasJob</factField>
           <fieldType>Boolean</fieldType>
           <parameters/>
-          <varName>$hasjob</varName>
+          <varName>$hasJob</varName>
           <factType>Applicant</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
