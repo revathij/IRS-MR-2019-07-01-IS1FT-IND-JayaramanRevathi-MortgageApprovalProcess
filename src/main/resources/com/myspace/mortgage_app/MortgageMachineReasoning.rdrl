@@ -4,6 +4,7 @@ import java.lang.Number;
 
 rule "MortgageMachineReasoning"
 	dialect "mvel"
+	ruleflow-group "mortgagemachinereasoning"
 	when
 	then
 end
