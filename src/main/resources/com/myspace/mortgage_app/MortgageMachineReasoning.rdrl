@@ -8,4 +8,5 @@ rule "MortgageMachineReasoning"
 	when
 		$app : Application( mortgageamount >= ( $app.property.saleprice- $app.downpayment ) )
 	then
+		$app.setInlimitMR( true );
 end
